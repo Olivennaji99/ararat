@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background: beige;
+}
+.top{
+    display: flex;
+    background: beige;
+    color: rgb(11, 11, 82);
+}
+.ara{
+   padding-left: 70px;
+}
+.ara h2{
+    font-size: 35px;
+    font-weight: bold;
+}
+.ara p{
+    margin-top: -35px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    margin-top: 40px;
+    margin-left: 200px;
+    margin-right: 100px;
+    gap: 20px;
+    color: black;
+
+}
+
+.nav li a{
+    text-decoration: none;
+    color: rgb(11, 11, 82);
+    font-weight: 600;
+}
+
+.nav li a:hover{
+    border: 3px solid rgb(13, 13, 97);
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.top button{
+    margin: 10px;
+    padding: 0 40px 0 40px;
+    background: transparent;
+    color: rgb(11, 11, 82) ;
+    border: 2.5px solid rgb(11, 11, 82);
+    
+}
+ .top button:hover{
+    background: rgb(11,11,82);
+    color: beige;
+}
+
+.main{
+    background: url(image.jpg) no-repeat center center/cover
+    ;
+    width: 100vw;
+    height: 80vh;
+    text-align: center;
+}
+h1{
+    padding-top: 15%;
+    color: rgb(233, 233, 212);
+    font-size: 50px;
+    word-spacing: 30px;
+    letter-spacing: 5px;
+}
+.main p{
+    color: bisque;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.main button{
+    padding: 20px;
+    background: transparent;
+    border: 2px solid bisque;
+    color: beige;
+}
+.main button:hover{
+    background: rgb(11, 11, 82);
+}
